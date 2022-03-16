@@ -1,8 +1,5 @@
-# This policy uses the Sentinel tfplan/v2 import to restrict
-# the availability zones used by EC2 instances.
-# This is an easier way to restrict regions than to restrict
-# the region of the AWS provider since that requires the
-# tfconfig/v2 import.
+# This policy restricts the availability zones used by EC2 instances.
+# AZ are limited to ap-southeast-2a, 2b, 2c and us-west-1a, 1b
 
 # Import common-functions/tfplan-functions/tfplan-functions.sentinel
 # with alias "plan"

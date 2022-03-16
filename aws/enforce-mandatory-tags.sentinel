@@ -1,6 +1,5 @@
-# This policy uses the Sentinel tfplan import to require that all EC2 instances
-# have all mandatory tags.
-# Note that the comparison is case-sensitive since AWS tags are case-sensitive.
+# This policy requires that all EC2 instances have all mandatory tags.
+# Mandatory tags are: Department, Billable
 
 # Import common-functions/tfplan-functions/tfplan-functions.sentinel
 # with alias "plan"

@@ -1,7 +1,6 @@
-# This policy uses the Sentinel tfplan/v2 and tfconfig/v2 imports to require
-# that all S3 bucket policies are implemented with the aws_iam_policy_document
-# data source and that those policies require buckets to only be accessible
-# via HTTPS and from specific VPC endpoints.
+# This policy requires that all S3 bucket policies are implemented with 
+# the aws_iam_policy_document data source and that those policies 
+# require buckets to only be accessible via HTTPS and from specific VPC endpoints.
 
 # Import common-functions/tfplan-functions/tfplan-functions.sentinel
 # with alias "plan"
