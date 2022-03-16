@@ -13,9 +13,9 @@ policy "restrict-s3-bucket-policies" {
 }
 
 module "tfplan-functions" {
-  source = "https://raw.githubusercontent.com/hashicorp/terraform-guides/master/governance/third-generation/common-functions/tfplan-functions/tfplan-functions.sentinel"
+  source = "../common-functions/tfplan-functions/tfplan-functions.sentinel"
 }
 
 module "tfconfig-functions" {
-  source = "https://raw.githubusercontent.com/hashicorp/terraform-sentinel-policies/main/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+  source = "../common-functions/tfconfig-functions/tfconfig-functions.sentinel"
 }
