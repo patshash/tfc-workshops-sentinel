@@ -4,7 +4,7 @@ policy "enforce-mandatory-tags" {
 
 policy "restrict-ec2-instance-type" {
   source = "./restrict-ec2-instance-type.sentinel"
-  enforcement_level = "advisory"
+  enforcement_level = "soft-mandatory"
 }
 
 policy "restrict-s3-bucket-policies" {
